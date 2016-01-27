@@ -1,3 +1,5 @@
+//Author: Cameron Rowell
+
 #define   LED_1   6
 #define   LED_2   10
 #define   LED_3   11
