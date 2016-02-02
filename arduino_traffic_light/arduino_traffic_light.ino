@@ -14,15 +14,15 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED_1, HIGH);
-  delay(1000);
+  delay(2000);
   digitalWrite(LED_1, LOW);
-  delay(1000);
+  delay(500);
   digitalWrite(LED_2, HIGH);
   delay(1000);
   digitalWrite(LED_2, LOW);
-  delay(1000);
+  delay(500);
   digitalWrite(LED_3, HIGH);
-  delay(1000);
+  delay(3000);
   digitalWrite(LED_3, LOW);
-  delay(1000);
+  delay(2000);
 }
