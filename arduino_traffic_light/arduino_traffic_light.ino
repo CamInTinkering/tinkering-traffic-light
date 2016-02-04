@@ -108,65 +108,86 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-tone(SPEAKER, NOTE_CS2);
-delay(20);
 
-tone(SPEAKER, NOTE_CS2);
-delay(20);
 
-tone(SPEAKER, NOTE_CS2);
-delay(20);
-
-tone(SPEAKER, NOTE_CS2);
-delay(20);
-
-tone(SPEAKER, NOTE_CS2);
-delay(100);
-
-tone(SPEAKER, NOTE_CS2);
-delay(20);
-
-tone(SPEAKER, NOTE_CS2);
-delay(100);
-
-tone(SPEAKER, NOTE_CS2);
-delay(20);
-  
   digitalWrite(LED_1, HIGH);
   delay(20);
   digitalWrite(LED_1, LOW);
   delay(500);
+tone(SPEAKER, NOTE_CS2);
+delay(20);
+noTone(SPEAKER);
+delay(500);
+  
   digitalWrite(LED_2, HIGH);
   delay(20);
   digitalWrite(LED_2, LOW);
   delay(500);
+tone(SPEAKER, NOTE_CS2);
+delay(20);
+noTone(SPEAKER);
+delay(500);
+  
   digitalWrite(LED_3, HIGH);
   delay(20);
   digitalWrite(LED_3, LOW);
   delay(500);
+tone(SPEAKER, NOTE_CS2);
+delay(20);
+noTone(SPEAKER);
+delay(500);
   
   digitalWrite(LED_1, HIGH);
   delay(50);
   digitalWrite(LED_1, LOW);
-  delay(50);
+  delay(10);
+tone(SPEAKER, NOTE_CS2);
+delay(50);
+noTone(SPEAKER);
+delay(50);
+  
   digitalWrite(LED_2, HIGH);
   delay(100);
   digitalWrite(LED_2, LOW);
-  delay(50);
+  delay(10);
+tone(SPEAKER, NOTE_CS2);
+delay(100);
+noTone(SPEAKER);
+delay(50);
+  
   digitalWrite(LED_3, HIGH);
   delay(200);
   digitalWrite(LED_3, LOW);
-  delay(50);
+  delay(10);
+tone(SPEAKER, NOTE_CS2);
+delay(200);
+noTone(SPEAKER);
+delay(50);
+  
   digitalWrite(LED_1, HIGH);
   delay(100);
   digitalWrite(LED_1, LOW);
   delay(100);
+tone(SPEAKER, NOTE_CS2);
+delay(100);
+noTone(SPEAKER);
+delay(100);
+  
   digitalWrite(LED_2, HIGH);
   delay(50);
   digitalWrite(LED_2, LOW);
   delay(200);
+tone(SPEAKER, NOTE_CS2);
+delay(50);
+noTone(SPEAKER);
+delay(200);
+  
   digitalWrite(LED_3, HIGH);
   delay(50);
   digitalWrite(LED_3, LOW);
   delay(200);
+tone(SPEAKER, NOTE_CS2);
+delay(50);
+noTone(SPEAKER);
+delay(200);
 }
